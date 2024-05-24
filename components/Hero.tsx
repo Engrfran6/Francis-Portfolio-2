@@ -17,12 +17,11 @@ const Hero = () => {
 
       <div className="flex flex-col md:flex-row justify-between items-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl flex flex-col items-center md:items-start">
-          <p className="text-[15px] md:text-[15px] uppercase font-bold md:text-6xl text-center md:text-left">
-            Hi👋, I'm Francis U. Okpoluaefe
+          <p className="text-[15px] md:text-6xl uppercase font-bold text-center md:text-left">
+            Hi👋, I&#39;m Francis U. Okpoluaefe
           </p>
-
           <TextGenerateEffect
-            words="A Self-taught FrontEnd Developer that is Enthusiastic about Transforming Concepts into Seamless User Experience"
+            words="A self-taught frontend developer enthusiastic about transforming concepts into seamless user experiences."
             className="text-[20px] md:text-[35px] text-center md:text-left"
           />
 
