@@ -18,10 +18,10 @@ const Hero = () => {
       <div className="flex flex-col md:flex-row justify-between items-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl flex flex-col items-center md:items-start">
           <p className="text-[15px] md:text-6xl uppercase font-bold text-center md:text-left">
-            Hi👋, I'm Francis U. Okpoluaefe
+            Hi👋, I&lsquo;m Francis U. Okpoluaefe
           </p>
           <TextGenerateEffect
-            words="A self-taught frontend developer enthusiastic about transforming concepts into seamless user experiences."
+            words="A self-taught frontend developer enthusiastic about transforming concepts into seamless user experiences"
             className="text-[20px] md:text-[35px] text-center md:text-left"
           />
 
@@ -34,15 +34,6 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        {/* <div className="mt-10 md:mt-0">
-          <Image
-            className="rounded-full object-cover overflow-hidden w-48 h-49 md:w-96 md:h-96"
-            src="/photo.jpeg"
-            width={500}
-            height={510}
-            alt="photo"
-          />
-        </div> */}
         <div className="mt-10 md:mt-0 flex items-center justify-center w-96 h-96 rounded-full bg-deulobg animate-myCircle">
           <div className="w-80 h-80 animate-slideInFromRight">
             <Image
