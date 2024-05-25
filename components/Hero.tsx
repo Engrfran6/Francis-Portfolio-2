@@ -1,11 +1,10 @@
 import {FaLocationArrow} from 'react-icons/fa6';
 import MagicButton from './MagicButton';
 import {TextGenerateEffect} from './ui/TextGenerateEffect';
-import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <div className="relative pb-20 pt-36">
+    <div className="relative pb-0 pt-20 lg:pb-20 lg:pt-36">
       {/* Optional Spotlight components */}
       {/* <Spotlight className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen" fill="white" /> */}
       {/* <Spotlight className="h-[80vh] w-[50vw] top-10 left-full" fill="purple" /> */}
@@ -17,7 +16,7 @@ const Hero = () => {
 
       <div className="flex flex-col md:flex-row justify-between items-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl flex flex-col items-center md:items-start">
-          <p className="text-[15px] md:text-6xl uppercase font-bold text-center md:text-left">
+          <p className="text-[15px] bg-black-200 py-3 px-1.5 rounded-lg uppercase font-bold">
             Hi👋, I&lsquo;m Francis U. Okpoluaefe
           </p>
           <TextGenerateEffect
@@ -34,13 +33,11 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="mt-10 md:mt-0 flex items-center justify-center w-96 h-96 rounded-full bg-deulobg animate-myCircle">
+        <div className="mt-5 md:mt-0 lg:mt-10 flex items-center justify-center w-96 h-96 rounded-full bg-deulobg animate-myCircle">
           <div className="w-80 h-80 animate-slideInFromRight">
-            <Image
-              className="rounded-full object-cover overflow-hidden w-full h-full"
+            <img
+              className="rounded-full m-auto object-cover overflow-hidden w-60 h-60 lg:w-full lg:h-full"
               src="/photo.jpeg"
-              width={400}
-              height={400}
               alt="photo"
             />
           </div>
